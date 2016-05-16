@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.pomodoro {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding: 10px 10px 0;
+}
+
+.settings {
+  max-width: 450px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.time {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.time-control {
+  margin-top: 10px;
+}
+
+.time-control .btn {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#timer-card {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-action-btn {
+  margin-bottom: 5px;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 14pt;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
